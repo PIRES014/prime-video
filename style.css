@@ -3,9 +3,38 @@
     --branco-secundario: #F9F9F9; 
     --botao-azul: #167BF7; 
     --cor-de-fundo: #00030C; 
+    --botao-transparente: ;
+    --fonte-principal: 'PT SerifStatic';
 }
 body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-secundario);
-    
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.principal{
+    background-image: url(img.1/);
+    background-repeat: no-repeat;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.container__botao{
+    background-color:var(--botao-azul) ;
+    border-radius: 8px;
+    padding: 1em;
+    color:var(--branco-secundario) ;
+    display: block;
+    text-decoration: none;
+}
+
+.botao__secundario{
+    background-color: transparent;
+    border: 2px solid var(--botao-transparente);
 }
