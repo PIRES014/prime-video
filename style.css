@@ -10,13 +10,15 @@ body{
     background-color: var(--cor-de-fundo);
     color: var(--branco-secundario);
     font-family: var(--fonte-principal);
-    font-size: 16px;
-    font-weight: 400px;
+    font-size: 20px;
+    font: weight 400px;
 }
 
 .principal{
     background-image: url(img.1/);
     background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 2em;
 }
 
 .container{
@@ -27,7 +29,7 @@ body{
 
 .container__botao{
     background-color:var(--botao-azul) ;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 1em;
     color:var(--branco-secundario) ;
     display: block;
@@ -36,5 +38,20 @@ body{
 
 .botao__secundario{
     background-color: transparent;
-    border: 2px solid var(--botao-transparente);
+    border: 5px solid var(--botao-transparente);
+       border-radius: 10px;
+    padding: 1em;
+    color:var(--branco-secundario) ;
+    display: block;
+    text-decoration: none;
+    margin: 1% 0 0 0;
 }
+
+        .container_titulo{
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .container__imagem{
+            margin: 2em 2 2em 2;
+        }
