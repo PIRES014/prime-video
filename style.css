@@ -19,6 +19,8 @@ body{
     background-repeat: no-repeat;
     text-align: center;
     margin-left: 2em;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
@@ -55,3 +57,39 @@ body{
         .container__imagem{
             margin: 2em 2 2em 2;
         }
+
+        .secundario__image{
+            width: 80%;
+        }
+        .secundario{
+            align-items: center;
+            margin: 1 10em;
+        }
+        .descricao__titulo{
+    font-weight: 700%;
+    font-size: 48px;
+    margin-bottom: 0.2em;
+        }
+        .descricao__texto{
+            color: var(--azul-principal);
+        }
+        .secundario__botao{
+            display: inline-block;
+            margin-top: 1em;
+        }
+        .container__descricao{
+            padding: 2em;
+        }
+        .dispositivos__listas{
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin: 5em 0;
+        }
+        .dispositivos{
+            text-align: center;
+        }
+        .dispositivos__titulo{
+            font-size: 46px;
+        }
+        
